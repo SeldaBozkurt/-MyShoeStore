@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="welcome_to_shoe_store">Welcome to Shoe Store</string>
+    <string name="about_us">
+        From slippers to athletic shoes to boots, the store could also sell shoe accessories,
+        including insoles, shoelaces, shoe horns, shoe polish, etc. In addition,
+        shoe stores may provide clothing and fashion accessories, such as handbags, sunglasses,
+        backpacks, socks, and hosiery.</string>
+    <string name="next">Next</string>
+    <string name="about_store">Our mission is what drives us to do everything
+        possible to expand human potential. We do that by creating groundbreaking sport
+        innovations, by making our products more sustainably, by building a creative and diverse
+        global team and by making a positive impact in communities where we live and work.</string>
+    <string name="welcome">Welcome</string>
+    <string name="about_our_store">About Our Store</string>
+    <string name="please_check_next_pages_for_more_information">Please check next pages for more information</string>
+    <string name="please_check_next_pages_for_shoes">Please check next pages for shoes</string>
+    <string name="shoe_store">Shoe Store</string>
+    <string name="shoe_name">Shoe Name</string>
+    <string name="company">Company</string>
+    <string name="what_is_shoe_name">What is Shoe Name</string>
+    <string name="what_is_company_name">What is Company name</string>
+    <string name="label">Label</string>
+    <string name="what_is_label_name">What is Label Name</string>
+    <string name="description">Description</string>
+    <string name="what_is_the_description">What is the Description</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="string_value">%s %s</string>
+    <string name="double_value">%s %.1f</string>
+</resources>

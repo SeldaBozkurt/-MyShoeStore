@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+        name="viewModel"
+            type="com.example.myshoestore.MainViewModel"/>
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login_background"
+        android:orientation="vertical"
+        tools:context=".LoginFragment">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/shoesthree" />
+
+
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/login_editbackground"
+            android:hint="@string/username"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/login_editbackground"
+            android:hint="@string/password"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:textAllCaps="false"
+            android:onClick="@{()-> viewModel.showWelcomeSreen()}"
+            android:textSize="20sp"
+            android:background="@drawable/button_background"
+            />
+
+        <Button
+            android:id="@+id/signup_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/button_background"
+            android:backgroundTint="#4682B4"
+            android:text="@string/sign_up"
+            android:onClick="@{()-> viewModel.showWelcomeSreen()}"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:iconTint="@color/steel"
+            app:rippleColor="@color/steel" />
+    </LinearLayout>
+</layout>
